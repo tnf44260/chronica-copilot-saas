@@ -1,14 +1,22 @@
-# Chronica Copilot SaaS v2.1 🌿
+# Chronica Copilot – Healing Garden AI App 🌿
 
-An AI-powered trauma-informed conversational Copilot for people living with chronic illness.
+Chronica is a trauma-informed, compassionate AI companion designed to support individuals living with chronic illness. This Streamlit app provides voice-friendly check-ins, guided emotional support, AI-generated summaries, and a calming garden theme.
 
-- Built with OpenAI GPT-4o
-- Fully Streamlit SaaS deployable
-- Conversational intake + coaching
-- Pacing guidance + nervous system awareness
-- Funder-demo & pilot-ready SaaS MVP
+## 🌟 Features
+- 🧘 Guided and Open Chat modes
+- 🗣️ Voice output (text-to-speech)
+- 🤖 AI-powered support with OpenAI GPT
+- 📝 Intake form with dynamic symptoms
+- 📤 Summary export for self-advocacy
+- 🌿 Healing garden theme with botanical UI
 
-# Deployment
+## 🚀 How to Run Locally
 
-- Streamlit Cloud compatible
-- Store OpenAI key via Streamlit Secrets
+```bash
+pip install -r requirements.txt
+streamlit run chronica_saas_v4_5_conversational_chat_ai.py
+```
+
+## ❤️ Built by
+**Clarity Collective**  
+Empowering chronic illness communities through compassion and innovation.
