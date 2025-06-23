@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+html, body, .main {
+    background-color: #f6fdfb;
+    background-image: url('https://raw.githubusercontent.com/tnf44260/chronica-copilot-saas/main/assets/healing_garden_background.png');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: #2c3e50;
+}
+
+.stChatMessage > div {
+    background-color: #ffffff;
+    border-radius: 16px !important;
+    padding: 1rem !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.stButton>button {
+    background-color: #a9dacc !important;
+    color: #1f3b3b !important;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6rem 1.2rem;
+}
+
+.stButton>button:hover {
+    background-color: #c1ede0 !important;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+.stTextInput>div>input {
+    background-color: #ffffff !important;
+    color: #2c3e50 !important;
+    border: 1px solid #b3ddcb !important;
+    border-radius: 8px !important;
+}
+
+.stTextInput>div>input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(169, 218, 204, 0.4);
+}
+
+.stSidebar, .stSidebarContent {
+    background-color: #e6f9f0 !important;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+.stAlert {
+    background-color: #d7f5ec;
+    border-left: 4px solid #91c39e;
+    color: #1c3c35;
+}
+
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    color: #2c3e50 !important;
+}
